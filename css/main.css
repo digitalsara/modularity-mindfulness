@@ -6,6 +6,11 @@ i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
+.middle {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+}
+
 nav li a {
   color: #860927;
   text-decoration: none;
@@ -21,6 +26,14 @@ nav li a {
 
   .header-left {
     text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .middle-i span {
+    width: 30%;
   }
 
 }
