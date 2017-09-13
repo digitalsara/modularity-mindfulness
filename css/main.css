@@ -13,7 +13,14 @@ nav li a {
   padding-bottom: .25em;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
 
+  .header-right {
+    text-align: right;
+  }
+
+  .header-left {
+    text-align: left;
+  }
 
 }
