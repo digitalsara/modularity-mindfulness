@@ -18,10 +18,15 @@ nav li a {
   padding-bottom: .25em;
 }
 
+nav li a:hover {
+  border-color: #860927;
+  color: #860927;
+}
+
 .btn {
-  background-color: #d89fb0;
+  background-color: #860927;
   border-radius: 4px;
-  border-color: #b64c6e;
+  border-color: #860927;
   border-width: 1px;
   color: #d89fb0;
   display: inline-block;
@@ -35,9 +40,9 @@ nav li a {
 }
 
 .btn-ghost:hover {
-  background-color: #b64c6e;
-  border-color: #b64c6e;
-  color: #fff;
+  background-color: #d89fb0;
+  border-color: #860927;
+  color: #860927;
 }
 
 footer {
